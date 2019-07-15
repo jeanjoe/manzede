@@ -1,0 +1,28 @@
+<div class="container">
+  <h4 class="text-pink-600 text-2xl">Connect with Me!</h4>
+
+  <p>Send me an Email</p>
+
+  <div class="flex flex-wrap content-between">
+    <div class="flex-1 m-2 sm:w-full">
+      <p class="font-bold text-sm text-left my-4">Full Name</p>
+      <input
+        type="text"
+        class="p-2 text-sm border border-pink-600 focus:shadow-outline focus:bg-pink-100 shadow-sm w-full rounded-0"
+        placeholder="Your Full Name"
+      />
+    </div>
+    <div class="flex-1 m-2">
+      <p class="font-bold text-sm text-left my-4">Your Email Address</p>
+      <input
+        type="text"
+        class="p-2 text-sm border border-pink-600 focus:shadow-outline focus:bg-pink-100 shadow-sm w-full rounded-0"
+        placeholder="Your E-mail Address"
+      />
+    </div>
+  </div>
+  <button type="button" class="block px-5 py-3 text-white bg-pink-600 rounded shadow-lg">
+    Send Message
+    <fa-icon [icon]="faArrowRight"></fa-icon>
+  </button>
+</div>
